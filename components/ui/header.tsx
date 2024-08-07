@@ -36,7 +36,7 @@ export default function Header() {
                   Home
                 </Link>
               </li>
-              {accountId !== null && <><li>
+              {accountId === null && <><li>
                 <Link
                   href='/trade'
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
